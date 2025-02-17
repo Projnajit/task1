@@ -16,7 +16,11 @@ def fetch_commits(repo):
         print(f"Author: {author}\nMessage: {message}\n")
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     repo = sys.argv[1] if len(sys.argv) > 1 else "projnajit/task1"
+=======
+    repo = sys.argv[1] if len(sys.argv) > 1 else "projnajit/SpringPractise"
+>>>>>>> master
     fetch_commits(repo)
 
     #hello_world
